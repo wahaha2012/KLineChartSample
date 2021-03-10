@@ -1,5 +1,6 @@
 <template>
   <div id="app" class="app">
+    <CustomChart />
     <BasicKLineChart/>
     <ChartTypeKLineChart/>
     <TechnicalIndicatorKLineChart/>
@@ -16,6 +17,7 @@
 </template>
 
 <script>
+import CustomChart from '@/components/CustomChart'
 import BasicKLineChart from '@/components/BasicKLineChart'
 import ChartTypeKLineChart from '@/components/ChartTypeKLineChart'
 import TechnicalIndicatorKLineChart from '@/components/TechnicalIndicatorKLineChart'
@@ -32,6 +34,7 @@ import CustomTechnicalIndicatorMarkKLineChart from '@/components/CustomTechnical
 export default {
   name: 'App',
   components: {
+    CustomChart,
     BasicKLineChart,
     ChartTypeKLineChart,
     TechnicalIndicatorKLineChart,

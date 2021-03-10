@@ -1,6 +1,6 @@
 # vue-sample
 
-## Project setup
+## 1. Project setup
 ```
 npm install
 ```
@@ -22,3 +22,7 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## 2. Docs
+1. [中文](https://www.yuque.com/liihuu/klinechart)
+2. [English](https://github.com/liihuu/KLineChart/blob/master/docs/en/README.md)
